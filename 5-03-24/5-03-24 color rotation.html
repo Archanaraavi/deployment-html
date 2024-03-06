@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <style>
+            table,tr,td{
+                border: 2px solid;
+                border-collapse: collapse;
+                padding: 30px;
+            }
+            .a:hover{
+                background-color:bisque ;
+               background-repeat: no-repeat;
+               transform: rotate(-160deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .b:hover{
+                background-color:blue ;
+               background-repeat: no-repeat;
+               transform: rotate(-60deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .c:hover{
+                background-color:blueviolet ;
+               background-repeat: no-repeat;
+               transform: skew(-20deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .d:hover{
+                background-color:brown ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .e:hover{
+                background-color:chartreuse ;
+               background-repeat: no-repeat;
+               transform: scaleX(2s);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .f:hover{
+                background-color:chocolate ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .g:hover{
+                background-color:cornsilk ;
+               background-repeat: no-repeat;
+               transform: rotate(-60deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .h:hover{
+                background-color:crimson ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .i:hover{
+                background-color:darkcyan;
+               background-repeat: no-repeat;
+               transform: rotate(90deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .j:hover{
+                background-color:darkgoldenrod ;
+               background-repeat: no-repeat;
+               transform: rotate(-90deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .k:hover{
+                background-color:darkgray ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .l:hover{
+                background-color:darkmagenta ;
+               background-repeat: no-repeat;
+               transform: rotate(1800deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .m:hover{
+                background-color:darkorchid ;
+               background-repeat: no-repeat;
+               transform: rotate(-270deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .n:hover{
+                background-color:darkred ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: red;
+            }
+            .o:hover{
+                background-color:bisque ;
+               background-repeat: no-repeat;
+               transform: rotate(-140deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color:darksalmon;
+            }
+            .p:hover{
+                background-color:bisque ;
+               background-repeat: no-repeat;
+               transform: rotate(360deg);
+               transition: 2s all;
+               background-size:contain;
+               border-color: darkseagreen;
+            }
+            h1{
+                background-color: blanchedalmond; 
+                color: red;
+                 text-align: center;
+            }
+            body{
+                background-image: url(data:image/jpeg;base64,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);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Colors</h1>
+        <center>
+        <table>
+            <tr>
+                <td class="a">bisque</td>
+                <td class="b">blue</td>
+                <td class="c">blue violet</td>
+                <td class="d">brown</td>
+            </tr>
+            <tr>
+                <td class="e">chartreuse</td>
+                <td class="f">chocolate</td>
+                <td class="g">cornsilk</td>
+                <td class="h">crimson</td>
+                
+            </tr>
+            <tr>
+                <td class="i">darkcyan</td>
+                <td class="j">darkgoldenrod</td>
+                <td class="k">darkgray</td>
+                <td class="l">darkmagenta</td>
+               
+            </tr>
+            <tr>
+                <td class="m">darkorchid</td>
+                <td class="n">darkred</td>
+                <td class="o">darksalmon</td>
+                <td class="p">darkseagreen</td>
+                
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
