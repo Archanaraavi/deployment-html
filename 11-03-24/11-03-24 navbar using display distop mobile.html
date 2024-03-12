@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            nav{
+                display: flex;
+            justify-content:space-evenly;
+            background-color: pink;
+            color: red;
+            }
+            @media  screen and (max-width:600px){
+                nav{
+                display: flex;
+                flex-direction:column;
+            /* align-content:space-around; */
+          justify-content: space-around;
+            background-color: pink;
+            color: red;
+            background-color: blue;
+                }
+                
+            }
+            body{
+                background-color: aqua;
+            }
+            nav:hover{
+                background-color: blue;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <span>HOME</span>
+            <span>NEWS</span>
+            <span>CONTACT</span>
+            <span>ABOUT</span>
+        </nav>
+    </body>
+</html>
